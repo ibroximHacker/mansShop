@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/fontawesome-pro-5.11.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="header__number" href="#">наш номер: +998907417839</a>
+                <div class="header__info d-flex">
+                    <div class="header__language dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown">
+                            RU
+                        </a>
+
+                        <div class=" dropdown-menu">
+                            <a class="dropdown-item" href="#">ENG</a>
+                            <a class="dropdown-item" href="#">UZ</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn header__nav-accound" data-toggle="modal"
+                        data-target="#exampleModalLong">
+                        <i class="fas fa-user"></i> Мой акаунт
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="header__search btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <div class="header__search dropdown-menu">
+                            <input class="header__search-input" type="text">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="under-nav">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="under-nav__logo" href="">Mens Shop</a>
+                <div class="under-nav__info d-flex align-items-center">
+                    <ul class="under-nav__list d-flex">
+                        <li><a class="under-nav__link" href="">Главная</a></li>
+                        <li><a class="under-nav__link" href="">Ассортимент</a></li>
+                        <li><a class="under-nav__link" href="">Что жарко?</a></li>
+                        <li><a class="under-nav__link" href="">Скидки</a></li>
+                    </ul>
+                    <div>
+                        <div class="dropdown-info">
+                            <a class="btn dropdown-toggle dropdown-info__toggle" href="#" role="button"
+                                data-toggle="dropdown">
+                                Ваша карта
+                            </a>
+                            <div class="dropdown-menu dropdown__card">
+                                <a class="dropdown-item dropdown__card-item" href="#">UzCard</a>
+                                <a class="dropdown-item dropdown__card-item" href="#">UnionPay</a>
+                                <a class="dropdown-item dropdown__card-item" href="#">VISA</a>
+                            </div>
+                            <div class="dropdown-info__buy">
+                                <i class="fas fa-shopping-bag dropdown-info__buy-icons"></i>
+                                <span class="dropdown-info__buy-cash">0 ПОКУПОК | $ 0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="carousel-section">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-section__item active">
+                        <div class="container">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-7 d-flex flex-column align-items-center carousel-section__item-content">
+                                    <h1 class="carousel-section__item-title">MENS
+                                        COLLECTION</h1>
+                                    <a class="carousel-section__item-link" href=""> Купить сейчас <i
+                                            class="fas fa-caret-right"></i></a>
+                                    <p class="carousel-section__item-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+
+                                </div>
+                                <img src="img/man.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-section__item">
+                        <div class="container">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-7 d-flex flex-column align-items-center carousel-section__item-content">
+                                    <h1 class="carousel-section__item-title">MENS
+                                        COLLECTION</h1>
+                                    <a class="carousel-section__item-link" href=""> Купить сейчас <i
+                                            class="fas fa-caret-right"></i></a>
+                                    <p class="carousel-section__item-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+
+                                </div>
+                                <img src="img/man.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-section__item">
+                        <div class="container">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-7 d-flex flex-column align-items-center carousel-section__item-content">
+                                    <h1 class="carousel-section__item-title">MENS
+                                        COLLECTION</h1>
+                                    <a class="carousel-section__item-link" href=""> Купить сейчас <i
+                                            class="fas fa-caret-right"></i></a>
+                                    <p class="carousel-section__item-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+
+                                </div>
+                                <img src="img/man.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-section__item">
+                        <div class="container">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-7 d-flex flex-column align-items-center carousel-section__item-content">
+                                    <h1 class="carousel-section__item-title">MENS
+                                        COLLECTION</h1>
+                                    <a class="carousel-section__item-link" href=""> Купить сейчас <i
+                                            class="fas fa-caret-right"></i></a>
+                                    <p class="carousel-section__item-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+
+                                </div>
+                                <img src="img/man.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-section__item">
+                        <div class="container">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-7 d-flex flex-column align-items-center carousel-section__item-content">
+                                    <h1 class="carousel-section__item-title">MENS
+                                        COLLECTION</h1>
+                                    <a class="carousel-section__item-link" href=""> Купить сейчас <i
+                                            class="fas fa-caret-right"></i></a>
+                                    <p class="carousel-section__item-text">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+
+                                </div>
+                                <img src="img/man.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev carousel-section__controls_arrow" href="#carouselExampleIndicators"
+                    role="button" data-slide="prev">
+                    <span class="fas fa-angle-right icons carousel-section__controls_prev" aria-hidden="true"></span>
+
+                </a>
+                <a class="carousel-control-next carousel-section__controls_arrow" href="#carouselExampleIndicators"
+                    role="button" data-slide="next">
+                    <span class="fas fa-angle-right icons " aria-hidden="true"></span>
+
+
+                </a>
+                <ol class="carousel-indicators carousel-section__controls">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                        class="carousel-section__indicator active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="carousel-section__indicator">
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="carousel-section__indicator">
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="carousel-section__indicator">
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4" class="carousel-section__indicator">
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <div class="social">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-2"><input class="social__input" placeholder="Ваш email" type="text">
+                    </div>
+                    <div class="social__net d-flex col-lg-3">
+                        <p class="social__text">
+                            Наши соц сети
+                        </p>
+                        <div class="social__items"><i class="fab fa-facebook-f"></i></div>
+                        <div class="social__items"><i class="fab fa-twitter"></i></div>
+                        <div class="social__items"><i class="fab fa-pinterest"></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="catalog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="img/andrew-neel-HqtYwlY9dxs-unsplash.png" alt="">
+                    </div>
+                    <div class="c0l-lg-3 d-flex flex-column justify-content-between">
+                        <img src="img/jens-lindner-dP6g1YJWQcA-unsplash.png" alt="">
+                        <img src="img/jeremy-beadle-qnU-UR0o5X8-unsplash (1).png" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/javier-reyes-qi2cD5oR_fE-unsplash.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-block">
+            <div class="container">
+                <nav>
+                    <div class="nav nav-tabs tab-block__control" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link tab-block__tabs active" id="nav-hot-tab" data-toggle="tab"
+                            href="#nav-hot" role="tab">что жарко?</a>
+                        <a class="nav-item nav-link tab-block__tabs" id="nav-designer-tab" data-toggle="tab"
+                            href="#nav-designer" role="tab">Дизайнеры</a>
+                        <a class="nav-item nav-link tab-block__tabs" id="nav-collection-tab" data-toggle="tab"
+                            href="#nav-collection" role="tab">Коллекции</a>
+                        <a class="nav-item nav-link tab-block__tabs" id="nav-sale-tab" data-toggle="tab"
+                            href="#nav-sale" role="tab">скидки</a>
+                    </div>
+                </nav>
+
+            </div>
+
+
+            <div class="tab-content tab-block__tab-content" id="nav-tabContent">
+
+                <div class="tab-pane fade show active tab-block__tab-content-tabs" id="nav-hot" role="tabpanel">
+                    <div class="container tabs-bloks">
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">50%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card1.png" alt="">
+                            <h2 class="tab-block__tab-content_title">рубашка белая</h2>
+                            <span class="tab-block__tab-content_span">$30.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">30%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card__2.png" alt="">
+                            <h2 class="tab-block__tab-content_title">ПИДЖАК</h2>
+                            <span class="tab-block__tab-content_span">$60.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__3.png" alt="">
+                            <h2 class="tab-block__tab-content_title">плащ</h2>
+                            <span class="tab-block__tab-content_span">$70.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__4.png" alt="">
+                            <h2 class="tab-block__tab-content_title">Брюки</h2>
+                            <span class="tab-block__tab-content_span">$21,50</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade tab-block__tab-content-tabs" id="nav-designer" role="tabpanel">
+                    <div class="container tabs-bloks">
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">50%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card1.png" alt="">
+                            <h2 class="tab-block__tab-content_title">рубашка белая</h2>
+                            <span class="tab-block__tab-content_span">$30.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">30%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card__2.png" alt="">
+                            <h2 class="tab-block__tab-content_title">ПИДЖАК</h2>
+                            <span class="tab-block__tab-content_span">$60.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__3.png" alt="">
+                            <h2 class="tab-block__tab-content_title">плащ</h2>
+                            <span class="tab-block__tab-content_span">$70.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__4.png" alt="">
+                            <h2 class="tab-block__tab-content_title">Брюки</h2>
+                            <span class="tab-block__tab-content_span">$21,50</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade tab-block__tab-content-tabs" id="nav-collection" role="tabpanel">
+                    <div class="container tabs-bloks">
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">50%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card1.png" alt="">
+                            <h2 class="tab-block__tab-content_title">рубашка белая</h2>
+                            <span class="tab-block__tab-content_span">$30.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">30%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card__2.png" alt="">
+                            <h2 class="tab-block__tab-content_title">ПИДЖАК</h2>
+                            <span class="tab-block__tab-content_span">$60.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__3.png" alt="">
+                            <h2 class="tab-block__tab-content_title">плащ</h2>
+                            <span class="tab-block__tab-content_span">$70.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__4.png" alt="">
+                            <h2 class="tab-block__tab-content_title">Брюки</h2>
+                            <span class="tab-block__tab-content_span">$21,50</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade tab-block__tab-content-tabs" id="nav-sale" role="tabpanel">
+                    <div class="container tabs-bloks">
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">50%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card1.png" alt="">
+                            <h2 class="tab-block__tab-content_title">рубашка белая</h2>
+                            <span class="tab-block__tab-content_span">$30.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+                            <div class="tab-block__tab-content-square">
+                                <span class="tab-block__tab-content_sale">Sale</span>
+                                <span class="tab-block__tab-content_procent">30%</span>
+                            </div>
+                            <img class="tab-block__tab-content_img" src="img/card__2.png" alt="">
+                            <h2 class="tab-block__tab-content_title">ПИДЖАК</h2>
+                            <span class="tab-block__tab-content_span">$60.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__3.png" alt="">
+                            <h2 class="tab-block__tab-content_title">плащ</h2>
+                            <span class="tab-block__tab-content_span">$70.00</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                        <div class="tab-block__tab-content-card">
+
+                            <img class="tab-block__tab-content_img" src="img/card__4.png" alt="">
+                            <h2 class="tab-block__tab-content_title">Брюки</h2>
+                            <span class="tab-block__tab-content_span">$21,50</span>
+                            <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="big-sale">
+            <div class="container">
+                <div class="lianer"><img src="img/off.png" alt=""></div>
+            </div>
+            <!-- <div class="big-sale__sale">
+                <h2 class="big-sale__sale_title">Скидки</h2>
+                <div class="big-sale__sale-block">
+                    <p class="big-sale__sale_procent">50%</p>
+                    <div class="big-sale__sale-price">
+                        <span class="big-sale__sale_text">%</span>
+                        <span class="big-sale__sale_text2">off</span>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+        <div class="catalog-block">
+            <div class="container tabs-bloks">
+                <div class="tab-block__tab-content-card">
+                    <img class="tab-block__tab-content_img" src="img/crds_1.png" alt="">
+                    <h2 class="tab-block__tab-content_title">рубашка белая</h2>
+                    <span class="tab-block__tab-content_span">$164.95</span>
+                    <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                </div>
+                <div class="tab-block__tab-content-card">
+                    <img class="tab-block__tab-content_img" src="img/CRDS_2.png" alt="">
+                    <h2 class="tab-block__tab-content_title">ПИДЖАК</h2>
+                    <span class="tab-block__tab-content_span">$76.95</span>
+                    <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                </div>
+                <div class="tab-block__tab-content-card">
+
+                    <img class="tab-block__tab-content_img" src="img/crds_3.png" alt="">
+                    <h2 class="tab-block__tab-content_title">плащ</h2>
+                    <span class="tab-block__tab-content_span">$79.95</span>
+                    <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                </div>
+                <div class="tab-block__tab-content-card">
+
+                    <img class="tab-block__tab-content_img" src="img/crds_4.png" alt="">
+                    <h2 class="tab-block__tab-content_title">Брюки</h2>
+                    <span class="tab-block__tab-content_span">$110</span>
+                    <a class="tab-block__tab-content-link" href="">купить сейчас</a>
+                </div>
+            </div>
+
+
+        </div>
+        <section class="logos">
+            <div class="container">
+                <h2 class="logos__title">favourite brands</h2>
+                <div class="logos__block row justify-content-between">
+                    <div class="col-lg-1">
+                        <img src="img/Layer1.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer2.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer3.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer4.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer5.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer6.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer7.png" alt="">
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="img/Layer8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+            <h2 class="about__title">ПОДРОБНЕЕ О MANS SHOP</h2>
+            <p class="about__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
+                sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+ </div>
+ </section>
+ </main>
+   
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-auto col-lg-3">
+                                <div class="info">
+                                    <h3>Наш сервис</h3>
+                                    <ul>
+                                        <li><a href="#!">Contact</a></li>
+                                        <li><a href="#!">FAQ</a></li>
+                                        <li><a href="#!">Terms of payment</a></li>
+                                        <li><a href="#!">Terms of sale</a></li>
+                                        <li><a href="#!">Delivery terms and conditions</a></li>
+                                        <li><a href="#!">Returns and Refunds</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-auto col-lg-3">
+                                <div class="info">
+                                    <h3>Информация</h3>
+                                    <ul>
+                                        <li><a href="#!">Affiliate</a></li>
+                                        <li><a href="#!"> Cookies</a></li>
+                                        <li><a href="#!"> How to Shop</a></li>
+                                        <li><a href="#!">About Nelly</a></li>
+                                        <li><a href="#!"> Investor relations</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-auto col-lg-3">
+                                <div class="info">
+                                    <h3>Компании </h3>
+                                    <ul>
+                                        <li><a href="#!">Evening dresses</a></li>
+                                        <li><a href="#!">Makeup</a></li>
+                                        <li><a href="#!">Fashion forward</a></li>
+                                        <li><a href="#!">training clothes</a></li>
+                                        <li><a href="#!">Special Occasion Dresses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-auto col-lg-3">
+                                <div class="info">
+                                    <h3>История</h3>
+                                    <ul>
+                                        <li><a href="#!">Paris</a></li>
+                                        <li><a href="#!"> New York</a></li>
+                                        <li><a href="#!"> London</a></li>
+                                        <li><a href="#!">Madrid</a></li>
+                                        <li><a href="#!">Tokio</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="social">
+                            <h3>Иштимои тармоқ</h3>
+                            <div class="social_icons">
+                                <div class="icons">
+                                    <ul class="d-flex">
+                                        <li><a href="#!"> <i class="fa fa-facebook"></i> </a></li>
+                                        <li><a href="#!"> <i class="fa fa-telegram"></i> </a></li>
+                                        <li><a href="#!"> <i class="fa fa-instagram"></i> </a></li>
+                                    </ul>
+                                    <ul class="d-flex">
+                                        <li><a href="#!"> <i class="fa fa-odnoklassniki"></i> </a></li>
+                                        <li><a href="#!"> <i class="fa fa-snapchat"></i> </a></li>
+                                        <li><a href="#!"> <i class="fa fa-twitter"></i> </a></li>
+                                    </ul>
+                                </div>
+                                <div class="secur_img">
+                                    <img src="Images/secured.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="libs/jquery-3.4.1.slim.min.js"></script>
+    <script src="libs/popper.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+</body>
+
+</html>
